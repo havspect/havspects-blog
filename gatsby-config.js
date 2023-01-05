@@ -8,8 +8,10 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-postcss", 
-    "gatsby-plugin-image", 
-    "gatsby-plugin-mdx", 
+    "gatsby-plugin-image",
+    {
+      resolve: `gatsby-plugin-mdx`,
+    },
     "gatsby-plugin-sharp", 
     "gatsby-transformer-sharp",
     {
